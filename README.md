@@ -4,6 +4,7 @@ The web should contain:
 - the specificity that is withing that field
 - what percentage out of the other field did I consume
 - what are the details and experience did I have
+- what are some of my works
 - and how long did it take me
 
 **Features that should be implemented:**
