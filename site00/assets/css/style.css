@@ -12,11 +12,6 @@ body{
 
 
 /* ==================== HEAD ==================== */
-.head{
-    /* background-color: rgb(221, 178, 178); */
-
-    /* height: 300vh; */
-}
 .head__bg-img{
     display: flex;
     height: 633px;
