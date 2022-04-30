@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* ==================== HEAD ==================== */
+.head{
+    /* background-color: rgb(221, 178, 178); */
+
+    /* height: 300vh; */
+}
+.head__bg-img{
+    display: flex;
+    height: 633px;
+}
+.head__data{
+    background-color: rgba(0, 0, 0, 0.35);
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 633px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+.head__title{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.head__subtitle{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.head__description{
+    font-size: large;
+}
+
+
+
+
+
+/* ==================== SHORTCUT ACHIEVEMENTS ==================== */
+.shortcut__containers{
+    /* background-color: gray; */
+
+    position: relative;
+    height: 50vh;
+}
+.achievement__progress{
+
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+.achievement__progress-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.achievement__progress-card{
+    width: calc(33% - 20px);
+    background: #fff;
+    height: 300px;
+
+    border-radius: 5px;
+}
+/* continue with the circle */
+.work__achievements{
+    background-color: gray;
+
+    position: absolute;
+    height: 10px;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
